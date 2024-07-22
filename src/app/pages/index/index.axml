@@ -1,0 +1,15 @@
+<view style="display : flex; justify-content : center; align-items : center; width : 100vw; height : 100vh; box-sizing : border-box ; background-color : red">
+  <text style="font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color : blue">check</text>
+  <view >
+    <bni-button
+      type="primary"
+      className="txt-label1-sb bg-turquoise-300"
+      onTap="handleClick"
+      id="id-bni-button-primary"
+      assignId="propped-id-primary-1"
+    >
+      Primary Button
+    </bni-button>
+    
+  </view>
+</view>

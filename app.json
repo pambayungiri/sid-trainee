@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "src/app/pages/introduction-page/introduction-page",
+    "src/app/pages/index/index"
+  ],
+  "window": {
+    "transparentTitle": "always",
+    "defaultTitle": "",
+    "titlePenetrate": "YES",
+    "allowsBounceVertical": "NO"
+  }
+}

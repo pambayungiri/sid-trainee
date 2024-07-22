@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "bni-progress" : "@bni-maverick-mpass/lib/es/bni-progress/bni-progress",
+    "top-bar": "@bni-maverick-mpass/lib/es/top-bar/top-bar"
+  }
+}

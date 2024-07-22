@@ -1,0 +1,29 @@
+{
+  "format": 2,
+  "compileOptions": {
+    "component2": true,
+    "less": true,
+    "typescript": true,
+    "axmlStrictCheck": true,
+    "enableParallelLoader": true,
+    "enableAppxNg": true,
+    "enableHMR": true,
+    "enableNodeModuleBabelTransform": true,
+    "node_modules_es6_whitelist": [
+      "axios-miniprogram"
+    ],
+    "nodeModulesES6Whitelist": [
+      "axios-miniprogram"
+    ]
+  },
+  "uploadExclude": [
+    "README.md",
+    ".mini-ide",
+    ".git",
+    "src/app/components/*/*.spec.ts",
+    "src/app/pages/*/*.spec.ts"
+  ],
+  "developOptions": {
+    "hotReload": false
+  }
+}

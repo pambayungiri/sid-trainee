@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "bni-button": "@bni-maverick-mpass/lib/es/bni-button/bni-button"
+  }
+}

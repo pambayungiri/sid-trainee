@@ -1,0 +1,13 @@
+<view style="width : 100vw; height : 100vh; background-color : red">
+  <top-bar
+    type="navigation"
+    navigate
+    backgroundColor="bg-off-white"
+    title=""
+    iconL="../../assets/icons/ic_common_arrow_back.svg"
+    safeArea="{{true}}"
+  />
+
+  <view style="padding : 32rpx 48rpx; background-color : yellow"></view>
+  
+</view>
