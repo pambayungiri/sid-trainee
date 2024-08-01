@@ -1,7 +1,7 @@
 {
   "pages": [
-    "src/app/pages/introduction-page/introduction-page",
-    "src/app/pages/index/index"
+    "src/app/pages/index/index",
+    "src/app/pages/introduction-page/introduction-page"
   ],
   "window": {
     "transparentTitle": "always",

@@ -12,6 +12,9 @@ dayjs.locale('id');
 
 Page({
   data: {
+    current: 0,
+    steps1: ['Step A', 'Step B', 'Step C', 'Step D'],
+    activeStep1: 'Step B'
   },
   onUnload() {
   },

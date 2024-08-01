@@ -1,15 +1,103 @@
-<view style="display : flex; justify-content : center; align-items : center; width : 100vw; height : 100vh; box-sizing : border-box ; background-color : red">
-  <text style="font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color : blue">check</text>
-  <view >
-    <bni-button
-      type="primary"
-      className="txt-label1-sb bg-turquoise-300"
-      onTap="handleClick"
-      id="id-bni-button-primary"
-      assignId="propped-id-primary-1"
-    >
-      Primary Button
-    </bni-button>
-    
+<view>
+  <top-bar type="primary" backgroundColor="bg-off-white" />
+  <top-bar type="primary" backgroundColor="bg-off-white" />
+
+  <view class="container">
+    <view class="top-content">
+      <view class="top-title">
+        <text class="txt-h2">Pendaftaran SID diproses</text>
+      </view>
+
+      <view class="top-content">
+        <text class="txt-body3">
+          Terdapat 2 jenis akun yang diproses yaitu reksa dana dan obligasi
+        </text>
+      </view>
+    </view>
+
+    <view class="illustration-container">
+      <view class="mock-image">
+        <text class="txt-h3">Illustration Placeholder</text>
+      </view>
+    </view>
+
+    <view class="bottom-content mb-24">
+      <view class="top-bottom-content">
+        <view class="top-bottom-text">
+          <text class="txt-h3">Status Pendaftaran</text>
+        </view>
+
+        <view>
+          <toggle-tab
+            current={{current}}
+            items={{ [{title: "Reksa Dana"}, {title: "Obligasi"}] }}
+            type="secondary"
+          />
+        </view>
+      </view>
+    </view>
+
+    <view class="stepper-container">
+      <!--<view class="progress-container"><view class="progress-line"></view><view class="progress" id="progress"></view><view style="flex: 1; display: flex; justify-content: center;"><view class="circle active">1</view></view><view style="flex: 1; display: flex; justify-content: center;"><view class="circle">2</view></view><view style="flex: 1; display: flex; justify-content: center;"><view class="circle">3</view></view></view><view class="progress-text-container"><view style="flex: 1; display: flex; flex-direction: row; justify-content: center;" class="progress-text">
+          Daftar</view><view style="flex: 1; display: flex; flex-direction: row; justify-content: center;" class="progress-text">
+          Diverifikasi</view><view style="flex: 1; display: flex; flex-direction: row; justify-content: center;" class="progress-text">
+          Berhasil</view></view></view> -->
+
+      <view class="progress-container">
+
+        <view class="circle-container">
+          <view class="circle active mb-12">
+
+          </view>
+          <view class="line-right"></view>
+
+          <text class="txt-body3-sb">Daftar</text>
+        </view>
+
+        <view class="circle-container">
+
+          <view class="line-left"></view>
+          <view class="circle mb-12">
+            2
+          </view>
+          <view class="line-right"></view>
+
+          <text class="txt-body3-sb">Diverifikasi</text>
+        </view>
+
+        <view class="circle-container">
+          <view class="line-left"></view>
+          <view class="circle mb-12">
+            3
+          </view>
+          <text class="txt-body3-sb" style="color: #A0A0A0;">Berhasil</text>
+        </view>
+      </view>
+
+      <view class="progress-text-container">
+        <view class="progress-text txt-body3">
+          Data mu sedang diverifikasi. Akun obligasi akan selesai pada 20 Okt 2024
+        </view>
+      </view>
+
+    </view>
+
+
+    <view class="clipboard-container">
+      <text class="txt-body2">Nomor Referensi</text>
+      <view class="clipboard-text-container">
+        <text class="txt-body2 clipboard-text">
+          05074646
+        </text>
+        <image
+          mode="scaleToFill"
+          src="/src/app/assets/icons/ic_common_copy.svg"
+          style="width: 32rpx; height: 32rpx;"
+        />
+      </view>
+    </view>
+
+    <view class="">
+
+    </view>
   </view>
-</view>

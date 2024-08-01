@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "bni-button": "@bni-maverick-mpass/lib/es/bni-button/bni-button"
+    "bni-button": "@bni-maverick-mpass/lib/es/bni-button/bni-button",
+    "top-bar": "@bni-maverick-mpass/lib/es/top-bar/top-bar",
+    "toggle-tab": "@bni-maverick-mpass/lib/es/toggle-tab/toggle-tab"
   }
 }
